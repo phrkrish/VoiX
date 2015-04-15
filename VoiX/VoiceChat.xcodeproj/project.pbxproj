@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0415EAFB1ABB02D8007FD950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415EAFA1ABB02D8007FD950 /* main.m */; };
+		0415EAFE1ABB02D8007FD950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415EAFD1ABB02D8007FD950 /* AppDelegate.m */; };
+		0415EB011ABB02D9007FD950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415EB001ABB02D9007FD950 /* ViewController.m */; };
+		0415EB041ABB02D9007FD950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415EB021ABB02D9007FD950 /* Main.storyboard */; };
+		0415EB061ABB02D9007FD950 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415EB051ABB02D9007FD950 /* Images.xcassets */; };
+		0415EB091ABB02D9007FD950 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0415EB071ABB02D9007FD950 /* LaunchScreen.xib */; };
+		0415EB151ABB02D9007FD950 /* VoiceChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415EB141ABB02D9007FD950 /* VoiceChatTests.m */; };
+		042819B61ABBDCD2006BAF0A /* PhoneNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042819B51ABBDCD2006BAF0A /* PhoneNumberViewController.m */; };
+		042819B91ABBDCE4006BAF0A /* VerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042819B81ABBDCE4006BAF0A /* VerificationViewController.m */; };
+		0449AE6F1AC3D15D0006B770 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 0449AE6E1AC3D15D0006B770 /* list.png */; };
+		04F935D91AC9812A00C4B064 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F935D81AC9812A00C4B064 /* detail.png */; };
+		04F935DB1AC9815000C4B064 /* ic_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F935DA1AC9815000C4B064 /* ic_arrow_left.png */; };
+		04F935DD1AC9820F00C4B064 /* Profile-hdpi.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F935DC1AC9820F00C4B064 /* Profile-hdpi.png */; };
+		04F935DF1AC9829700C4B064 /* menu-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F935DE1AC9829700C4B064 /* menu-4.png */; };
+		04F935E21AC9835E00C4B064 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F935E11AC9835E00C4B064 /* ContactViewController.m */; };
+		04FCD7F61AC2F0460025C1C2 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FCD7F51AC2F0460025C1C2 /* ChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0415EB0F1ABB02D9007FD950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0415EAED1ABB02D8007FD950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0415EAF41ABB02D8007FD950;
+			remoteInfo = VoiceChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0415EAF51ABB02D8007FD950 /* VoiceChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415EAF91ABB02D8007FD950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0415EAFA1ABB02D8007FD950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0415EAFC1ABB02D8007FD950 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0415EAFD1ABB02D8007FD950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0415EAFF1ABB02D8007FD950 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0415EB001ABB02D9007FD950 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0415EB031ABB02D9007FD950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0415EB051ABB02D9007FD950 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0415EB081ABB02D9007FD950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0415EB0E1ABB02D9007FD950 /* VoiceChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415EB131ABB02D9007FD950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0415EB141ABB02D9007FD950 /* VoiceChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceChatTests.m; sourceTree = "<group>"; };
+		042819B41ABBDCD2006BAF0A /* PhoneNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberViewController.h; sourceTree = "<group>"; };
+		042819B51ABBDCD2006BAF0A /* PhoneNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberViewController.m; sourceTree = "<group>"; };
+		042819B71ABBDCE4006BAF0A /* VerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationViewController.h; sourceTree = "<group>"; };
+		042819B81ABBDCE4006BAF0A /* VerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationViewController.m; sourceTree = "<group>"; };
+		0449AE6E1AC3D15D0006B770 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		04F935D81AC9812A00C4B064 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		04F935DA1AC9815000C4B064 /* ic_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_arrow_left.png; sourceTree = "<group>"; };
+		04F935DC1AC9820F00C4B064 /* Profile-hdpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile-hdpi.png"; sourceTree = "<group>"; };
+		04F935DE1AC9829700C4B064 /* menu-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-4.png"; sourceTree = "<group>"; };
+		04F935E01AC9835E00C4B064 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		04F935E11AC9835E00C4B064 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		04FCD7F41AC2F0460025C1C2 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		04FCD7F51AC2F0460025C1C2 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0415EAF21ABB02D8007FD950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415EB0B1ABB02D9007FD950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0415EAEC1ABB02D8007FD950 = {
+			isa = PBXGroup;
+			children = (
+				04F935DA1AC9815000C4B064 /* ic_arrow_left.png */,
+				04F935DE1AC9829700C4B064 /* menu-4.png */,
+				04F935DC1AC9820F00C4B064 /* Profile-hdpi.png */,
+				04F935D81AC9812A00C4B064 /* detail.png */,
+				0415EAF71ABB02D8007FD950 /* VoiceChat */,
+				0415EB111ABB02D9007FD950 /* VoiceChatTests */,
+				0415EAF61ABB02D8007FD950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0415EAF61ABB02D8007FD950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0415EAF51ABB02D8007FD950 /* VoiceChat.app */,
+				0415EB0E1ABB02D9007FD950 /* VoiceChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0415EAF71ABB02D8007FD950 /* VoiceChat */ = {
+			isa = PBXGroup;
+			children = (
+				0415EAFC1ABB02D8007FD950 /* AppDelegate.h */,
+				0415EAFD1ABB02D8007FD950 /* AppDelegate.m */,
+				0415EAFF1ABB02D8007FD950 /* ViewController.h */,
+				0415EB001ABB02D9007FD950 /* ViewController.m */,
+				042819B41ABBDCD2006BAF0A /* PhoneNumberViewController.h */,
+				042819B51ABBDCD2006BAF0A /* PhoneNumberViewController.m */,
+				042819B71ABBDCE4006BAF0A /* VerificationViewController.h */,
+				042819B81ABBDCE4006BAF0A /* VerificationViewController.m */,
+				04FCD7F41AC2F0460025C1C2 /* ChatViewController.h */,
+				04FCD7F51AC2F0460025C1C2 /* ChatViewController.m */,
+				04F935E01AC9835E00C4B064 /* ContactViewController.h */,
+				04F935E11AC9835E00C4B064 /* ContactViewController.m */,
+				0449AE6E1AC3D15D0006B770 /* list.png */,
+				0415EB021ABB02D9007FD950 /* Main.storyboard */,
+				0415EB051ABB02D9007FD950 /* Images.xcassets */,
+				0415EB071ABB02D9007FD950 /* LaunchScreen.xib */,
+				0415EAF81ABB02D8007FD950 /* Supporting Files */,
+			);
+			path = VoiceChat;
+			sourceTree = "<group>";
+		};
+		0415EAF81ABB02D8007FD950 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0415EAF91ABB02D8007FD950 /* Info.plist */,
+				0415EAFA1ABB02D8007FD950 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0415EB111ABB02D9007FD950 /* VoiceChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				0415EB141ABB02D9007FD950 /* VoiceChatTests.m */,
+				0415EB121ABB02D9007FD950 /* Supporting Files */,
+			);
+			path = VoiceChatTests;
+			sourceTree = "<group>";
+		};
+		0415EB121ABB02D9007FD950 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0415EB131ABB02D9007FD950 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0415EAF41ABB02D8007FD950 /* VoiceChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415EB181ABB02D9007FD950 /* Build configuration list for PBXNativeTarget "VoiceChat" */;
+			buildPhases = (
+				0415EAF11ABB02D8007FD950 /* Sources */,
+				0415EAF21ABB02D8007FD950 /* Frameworks */,
+				0415EAF31ABB02D8007FD950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceChat;
+			productName = VoiceChat;
+			productReference = 0415EAF51ABB02D8007FD950 /* VoiceChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0415EB0D1ABB02D9007FD950 /* VoiceChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415EB1B1ABB02D9007FD950 /* Build configuration list for PBXNativeTarget "VoiceChatTests" */;
+			buildPhases = (
+				0415EB0A1ABB02D9007FD950 /* Sources */,
+				0415EB0B1ABB02D9007FD950 /* Frameworks */,
+				0415EB0C1ABB02D9007FD950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0415EB101ABB02D9007FD950 /* PBXTargetDependency */,
+			);
+			name = VoiceChatTests;
+			productName = VoiceChatTests;
+			productReference = 0415EB0E1ABB02D9007FD950 /* VoiceChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0415EAED1ABB02D8007FD950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Vijai;
+				TargetAttributes = {
+					0415EAF41ABB02D8007FD950 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					0415EB0D1ABB02D9007FD950 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 0415EAF41ABB02D8007FD950;
+					};
+				};
+			};
+			buildConfigurationList = 0415EAF01ABB02D8007FD950 /* Build configuration list for PBXProject "VoiceChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0415EAEC1ABB02D8007FD950;
+			productRefGroup = 0415EAF61ABB02D8007FD950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0415EAF41ABB02D8007FD950 /* VoiceChat */,
+				0415EB0D1ABB02D9007FD950 /* VoiceChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0415EAF31ABB02D8007FD950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0449AE6F1AC3D15D0006B770 /* list.png in Resources */,
+				0415EB041ABB02D9007FD950 /* Main.storyboard in Resources */,
+				04F935DD1AC9820F00C4B064 /* Profile-hdpi.png in Resources */,
+				04F935DF1AC9829700C4B064 /* menu-4.png in Resources */,
+				04F935D91AC9812A00C4B064 /* detail.png in Resources */,
+				0415EB091ABB02D9007FD950 /* LaunchScreen.xib in Resources */,
+				04F935DB1AC9815000C4B064 /* ic_arrow_left.png in Resources */,
+				0415EB061ABB02D9007FD950 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415EB0C1ABB02D9007FD950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0415EAF11ABB02D8007FD950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F935E21AC9835E00C4B064 /* ContactViewController.m in Sources */,
+				042819B61ABBDCD2006BAF0A /* PhoneNumberViewController.m in Sources */,
+				042819B91ABBDCE4006BAF0A /* VerificationViewController.m in Sources */,
+				04FCD7F61AC2F0460025C1C2 /* ChatViewController.m in Sources */,
+				0415EB011ABB02D9007FD950 /* ViewController.m in Sources */,
+				0415EAFE1ABB02D8007FD950 /* AppDelegate.m in Sources */,
+				0415EAFB1ABB02D8007FD950 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415EB0A1ABB02D9007FD950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415EB151ABB02D9007FD950 /* VoiceChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0415EB101ABB02D9007FD950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0415EAF41ABB02D8007FD950 /* VoiceChat */;
+			targetProxy = 0415EB0F1ABB02D9007FD950 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0415EB021ABB02D9007FD950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415EB031ABB02D9007FD950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0415EB071ABB02D9007FD950 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415EB081ABB02D9007FD950 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0415EB161ABB02D9007FD950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0415EB171ABB02D9007FD950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0415EB191ABB02D9007FD950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0415EB1A1ABB02D9007FD950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0415EB1C1ABB02D9007FD950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoiceChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceChat.app/VoiceChat";
+			};
+			name = Debug;
+		};
+		0415EB1D1ABB02D9007FD950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoiceChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceChat.app/VoiceChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0415EAF01ABB02D8007FD950 /* Build configuration list for PBXProject "VoiceChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415EB161ABB02D9007FD950 /* Debug */,
+				0415EB171ABB02D9007FD950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0415EB181ABB02D9007FD950 /* Build configuration list for PBXNativeTarget "VoiceChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415EB191ABB02D9007FD950 /* Debug */,
+				0415EB1A1ABB02D9007FD950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0415EB1B1ABB02D9007FD950 /* Build configuration list for PBXNativeTarget "VoiceChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415EB1C1ABB02D9007FD950 /* Debug */,
+				0415EB1D1ABB02D9007FD950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0415EAED1ABB02D8007FD950 /* Project object */;
+}
